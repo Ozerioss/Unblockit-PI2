@@ -3,7 +3,7 @@
 {
   background-image: url("NY-sunset-view.jpg");
   color: black; 
-  padding-top: 30px;
+  padding-top: 40px;
   font-family: 'Sanchezregular';
 }
 
@@ -130,6 +130,6 @@ h1{
   color:white;
 }
 
-#hello{
+.red{
    color: #c2454d;
 }
