@@ -1,4 +1,13 @@
 
+.navbar img 
+{
+  position: relative;
+  height: 15%;
+  width: 15%;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+
 #introHome
 {
   background-image: url("NY-sunset-view.jpg");
@@ -15,6 +24,8 @@
   text-align: center;
    width:auto; height:auto;
 }
+
+
 
 .concept{
 
