@@ -1,9 +1,91 @@
 
+
+body
+{
+    font-family: 'Sanchezregular';
+    padding-top: 80px;
+}
+
+
+.navbar
+{
+  padding: 9px 9px;
+  transition: all 0.5s;
+}
+
+
+.navbar img 
+{
+  position: relative;
+  height: 15%;
+  width: 15%;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+
+.cbp-af-header-shrink
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 0.8;
+}
+
+
+#joinUs
+{
+
+}
+
+
+.whitespace
+{
+  padding: 30% 30%;
+}
+
+
+#contenu
+{
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+
+#contactForm
+{
+  padding-top :5%;
+}
+
+#steps
+{
+  padding-top: 6%;
+}
+.navbar-bottom {
+min-height: 300px;
+margin-top: 100px;
+background-color: #28364f;
+padding-top: 35px;
+color:#FFFFFF;
+}
+
 #introHome
 {
+  height: 640px;
   background-image: url("NY-sunset-view.jpg");
   color: black; 
   font-family: 'Sanchezregular';
+  font-size: 20px;
+
+  /*display: table;*/
+  /*width: 100%;*/
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+  /*background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;*/
 }
 
 .starter-template {
@@ -15,6 +97,8 @@
   text-align: center;
    width:auto; height:auto;
 }
+
+
 
 .concept{
 
@@ -97,10 +181,7 @@ ul,li
     }
  }
 
-body{
-    padding-top:50px;
-    font-family: 'Sanchezregular';
-  }
+
 
 h1{
   font-family: 'Sanchezregular';
@@ -129,6 +210,10 @@ h1{
    color: #c2454d;
 }
 
+#titre
+{
+  font-size: 50px;
+}
 .bottom20{
   margin-bottom: 20px;
 }
