@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Unblock it !</title>
   <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css"  href="style.css" />
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <header>
+  <div class="wrapper">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">                   
         <div class="navbar-header">                        
@@ -38,72 +38,50 @@
         </div>
       </div><!-- /.container-fluid -->
     </div>
-  </header>
 
-  <div class="container-fluid">
-   <div class="row text-center">
-     <h1>Discover a new world</h1>
-     <h1>Discover the blockchain</h1>
-   </div>
-   <div class="row">
-     <div class="container col-md-10 col-md-offset-1">
-       <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#Step1">
-                Step 1 : The blockchain</a>
-              </h4>
-            </div>
-            <div id="Step1" class="panel-collapse collapse">
-              <div class="panel-body">
-                <h4> Understand the blockchain, its origin and its uses</h4>
-                <br/>
-                In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
-                <br/>
-                The step 1 deals with : <br>
-                <a href="#"> a. What is the blockchain ?</a> <br>
-                <a href="#"> b. The origin: the bitcoin </a> <br>
-                <a href="#"> c. The curretn uses </a> <br>
-                <a href="#"> d. Which sectors are influence by the blockchain ? How will it change our society for the next years ? </a> <br>
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid">
+     <div class="row text-center">
+       <h1>Discover a new world</h1>
+       <h1>Discover the blockchain</h1>
+     </div>
+     <div class="row">
+       <div class="container col-md-10 col-md-offset-1">
+         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#Step2">
-                  Step 2 : You want more details about the blockchain ?</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#Step1">
+                  Step 1 : The blockchain</a>
                 </h4>
               </div>
-              <div id="Step2" class="panel-collapse collapse">
+              <div id="Step1" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <h4> Understand the struture of the blockchain </h4>
+                  <h4> Understand the blockchain, its origin and its uses</h4>
                   <br/>
-                  Yeah, step one was quite easy. Now we can talk seriously. This course deals the technical aspect of the blockchain. We will introduce the network and how does it works concretly.
+                  In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
                   <br/>
-                  The step 2 deals with : <br>
-                  <a href="#"> a. Peer-to-peer network and nodes </a> <br>
-                  <a href="#"> b. The couple private key/ public key</a> <br>
-                  <a href="#"> c. Proof of work, the minors and decision rules </a> <br>
-                  <a href="#"> d. Latency </a> <br>
+                  The step 1 deals with : <br>
+                  <a href="#"> a. What is the blockchain ?</a> <br>
+                  <a href="#"> b. The origin: the bitcoin </a> <br>
+                  <a href="#"> c. The curretn uses </a> <br>
+                  <a href="#"> d. Which sectors are influence by the blockchain ? How will it change our society for the next years ? </a> <br>
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#Step3">
-                    Step 3 : The practice </a>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#Step2">
+                    Step 2 : You want more details about the blockchain ?</a>
                   </h4>
                 </div>
-                <div id="Step3" class="panel-collapse collapse">
+                <div id="Step2" class="panel-collapse collapse">
                   <div class="panel-body">
                     <h4> Understand the struture of the blockchain </h4>
                     <br/>
-                    In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
+                    Yeah, step one was quite easy. Now we can talk seriously. This course deals the technical aspect of the blockchain. We will introduce the network and how does it works concretly.
                     <br/>
-                    The step 3 deals with : <br>
+                    The step 2 deals with : <br>
                     <a href="#"> a. Peer-to-peer network and nodes </a> <br>
                     <a href="#"> b. The couple private key/ public key</a> <br>
                     <a href="#"> c. Proof of work, the minors and decision rules </a> <br>
@@ -111,23 +89,46 @@
                   </div>
                 </div>
               </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#Step3">
+                      Step 3 : The practice </a>
+                    </h4>
+                  </div>
+                  <div id="Step3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <h4> Understand the struture of the blockchain </h4>
+                      <br/>
+                      In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
+                      <br/>
+                      The step 3 deals with : <br>
+                      <a href="#"> a. Peer-to-peer network and nodes </a> <br>
+                      <a href="#"> b. The couple private key/ public key</a> <br>
+                      <a href="#"> c. Proof of work, the minors and decision rules </a> <br>
+                      <a href="#"> d. Latency </a> <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <footer>
-        <div class="container-fluid">
-          <br>
-          <div class="row" id="footer">
-            <div class="container text-left col-md-7 col-md-offset-0"> &copy; 2016 UnBlockIt - All Rights Reserved </div>
-            <div class="container text-right col-md-4">       
-             <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a> 
-             <a href="#"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
+
+        <footer>
+          <div class="container-fluid">
+            <br>
+            <div class="row">
+              <div class="container text-left col-md-7 col-md-offset-0"> &copy; 2016 UnBlockIt - All Rights Reserved </div>
+              <div class="container text-right col-md-4">       
+               <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a> 
+               <a href="#"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
+             </div>
            </div>
          </div>
-       </div>
-     </footer>
+       </footer>
+     </div>
    </body>
    </html>
 

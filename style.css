@@ -54,6 +54,11 @@
 
 }
 
+.wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
 .left
 {
   float:left;
