@@ -1,4 +1,19 @@
 
+
+body
+{
+    font-family: 'Sanchezregular';
+    padding-top: 80px;
+}
+
+
+.navbar
+{
+  padding: 9px 9px;
+  transition: all 0.5s;
+}
+
+
 .navbar img 
 {
   position: relative;
@@ -8,11 +23,42 @@
   padding-left: 10px;
 }
 
+.cbp-af-header-shrink
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 0.8;
+}
+
+
+#joinUs
+{
+
+}
+
+
+.whitespace
+{
+  padding: 30% 30%;
+}
+
+
+#contenu
+{
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+
 #contactForm
 {
   padding-top :5%;
 }
 
+#steps
+{
+  padding-top: 6%;
+}
 .navbar-bottom {
 min-height: 300px;
 margin-top: 100px;
@@ -23,9 +69,23 @@ color:#FFFFFF;
 
 #introHome
 {
+  height: 640px;
   background-image: url("NY-sunset-view.jpg");
   color: black; 
   font-family: 'Sanchezregular';
+  font-size: 20px;
+
+  /*display: table;*/
+  /*width: 100%;*/
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+  /*background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;*/
 }
 
 .starter-template {
@@ -116,10 +176,7 @@ ul,li
     }
  }
 
-body{
-    padding-top:50px;
-    font-family: 'Sanchezregular';
-  }
+
 
 /* fix padding under menu after resize */
 @media screen and (max-width: 767px) {
@@ -159,6 +216,10 @@ h1{
    color: #c2454d;
 }
 
+#titre
+{
+  font-size: 50px;
+}
 .bottom20{
   margin-bottom: 20px;
 }
