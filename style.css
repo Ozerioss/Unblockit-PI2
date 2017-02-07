@@ -33,16 +33,39 @@ body
 
 #joinUs
 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid #cfdcec;
+  overflow: hidden;
+    
+  background: #c2454d; 
+  box-shadow: 0 0 3px black;
+}
 
+#logIn
+{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid #cfdcec;
+  overflow: hidden;
+    
+  background: #c2454d; 
+  box-shadow: 0 0 3px black;
 }
 
 
 .whitespace
 {
-  padding: 30% 30%;
+  padding-top: 3%;
+
 }
 
-
+.somespace
+{
+  padding-top: 10%;
+}
 #contenu
 {
   padding-top: 1%;
@@ -91,6 +114,16 @@ color:#FFFFFF;
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+
+.discovery
+{
+  height: 10%;
+  text-align: center;
+  padding-top: 5px;
+  background-color : #392b25;
+  opacity :0.3;
 }
 
 .person-cell{
