@@ -28,14 +28,22 @@ body
 
 #aboutUs
 {
-  background-color: rgb(26, 20, 21);
+  background-color: #2b2b2b;
   color: white;
 }
 
 .whitespace
 {
-  padding: 30% 30%;
+  padding: 2% 2%;
 }
+
+
+#icones
+{
+  width: 50%;
+  margin: 0 auto;
+}
+
 
 #contenu
 {
