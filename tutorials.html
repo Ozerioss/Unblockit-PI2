@@ -1,60 +1,132 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Unblock it !</title>
-    <link rel="stylesheet" type="text/css"  href="style.css" />
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Unblock it !</title>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css"  href="style.css" />
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  </head>
+  <script src="https://use.fontawesome.com/d1e8efe0b9.js"></script>
 
-  <body>
-    <header>
-        <div class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">                   
-                <div class="navbar-header">                        
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <img src="unBlockIt_logo.png"  alt="Unblockit !" width="6%" height="6%"/> 
-                        <ul class="nav navbar-nav navbar-right">
-                          <li>  <a href="index.html">Home</a></li>
-                          <li>  <a href="lectures.html"> Lectures </a></li>
-                          <li>  <a href="tutorials.html"> Tutorials </a></li>
-                          <li>  <a href="about.html"> About </a></li>
-                          <li>  <a href="contact.html"> Contact </a></li>
-                         </ul>     
-                    </div><!-- /.navbar-collapse -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                    </button>  
-                </div>
-          </div><!-- /.container-fluid -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">                   
+        <div class="navbar-header">                        
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <img src="test_final_logo.png"  alt="Unblockit !" width="15%" height="15%"/> 
+            <ul class="nav navbar-nav navbar-right">
+              <li>  <a href="index.html">Home</a></li>
+              <li>  <a href="tutorials.html"> Tutorials </a></li>
+              <li>  <a href="about.html"> About </a></li>
+              <li>  <a href="contact.html"> Contact </a></li>
+            </ul>     
+          </div><!-- /.navbar-collapse -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>  
         </div>
-    </header>
+      </div><!-- /.container-fluid -->
+    </div>
 
-    <div class="container">
-     <div class="starter-template"></div>
-    </div><!-- /.container -->
-
-    <footer>
-      <div class="container-fluid">
-        <br>
-        <div class="row" id="footer">
-          <div class="container text-left col-md-7 col-md-offset-0"> &copy; 2016 UnBlockIt - All Rights Reserved </div>
-          <div class="container text-right col-md-4">
-            <ul>
-                <li> <a href="#"> Twitter </a> </li>
-                <li> <a href="#"> facebook </a> </li>
-            </ul>
+    <div class="container-fluid">
+     <div class="row text-center">
+       <h1>Discover a new world</h1>
+       <h1>Discover the blockchain</h1>
+     </div>
+     <div class="row" id="steps">
+       <div class="container col-md-10 col-md-offset-1">
+         <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#Step1">
+                  Step 1 : The blockchain</a>
+                </h4>
+              </div>
+              <div id="Step1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <h4> Understand the blockchain, its origin and its uses</h4>
+                  <br/>
+                  In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
+                  <br/>
+                  The step 1 deals with : <br>
+                  <a href="#"> a. What is the blockchain ?</a> <br>
+                  <a href="#"> b. The origin: the bitcoin </a> <br>
+                  <a href="#"> c. The curretn uses </a> <br>
+                  <a href="#"> d. Which sectors are influence by the blockchain ? How will it change our society for the next years ? </a> <br>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#Step2">
+                    Step 2 : You want more details about the blockchain ?</a>
+                  </h4>
+                </div>
+                <div id="Step2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <h4> Understand the struture of the blockchain </h4>
+                    <br/>
+                    Yeah, step one was quite easy. Now we can talk seriously. This course deals the technical aspect of the blockchain. We will introduce the network and how does it works concretly.
+                    <br/>
+                    The step 2 deals with : <br>
+                    <a href="#"> a. Peer-to-peer network and nodes </a> <br>
+                    <a href="#"> b. The couple private key/ public key</a> <br>
+                    <a href="#"> c. Proof of work, the minors and decision rules </a> <br>
+                    <a href="#"> d. Latency </a> <br>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#Step3">
+                      Step 3 : The practice </a>
+                    </h4>
+                  </div>
+                  <div id="Step3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <h4> Understand the struture of the blockchain </h4>
+                      <br/>
+                      In this course, you will learn the headlines of the blockchain. It would be clearer to understand this technology. What it is ? Where does it from ? And why the entire world talk about it ? 
+                      <br/>
+                      The step 3 deals with : <br>
+                      <a href="#"> a. Peer-to-peer network and nodes </a> <br>
+                      <a href="#"> b. The couple private key/ public key</a> <br>
+                      <a href="#"> c. Proof of work, the minors and decision rules </a> <br>
+                      <a href="#"> d. Latency </a> <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-    </body>
-</html>
+
+        <footer class="navbar-fixed-bottom">
+          <div class="container-fluid">
+            <br>
+            <div class="row" id="footer">
+            <div class="container text-left col-md-6 col-md-offset-1"> &copy; 2016 UnBlockIt - All Rights Reserved </div>
+              <div class="container text-right col-md-4">       
+               <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a> 
+               <a href="#"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
+             </div>
+           </div>
+         </footer>
+       </div>
+     </body>
+     </html>
 
