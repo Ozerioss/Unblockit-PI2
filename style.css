@@ -34,7 +34,7 @@ body
 
 .whitespace
 {
-  padding: 2% 2%;
+  padding: 2% 2%; 
 }
 
 
@@ -150,6 +150,13 @@ footer
   color : white;
   background-color: #c2454d;
 
+}
+
+
+footer div div div a 
+{
+  color : white;
+  padding: 0% 3%;
 }
 
 .wrapper{
