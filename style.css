@@ -61,6 +61,20 @@ body
   padding-top: 6%;
 }
 
+
+.down-button
+{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.down-button i
+{
+  color: #fcf0e7;
+}
+
 .navbar-bottom {
   min-height: 300px;
   margin-top: 100px;
