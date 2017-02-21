@@ -155,8 +155,9 @@ footer
 
 footer div div div a 
 {
-  color : white;
+  color: white;
   padding: 0% 3%;
+  text-align: center;
 }
 
 .wrapper{
