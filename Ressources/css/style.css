@@ -11,6 +11,9 @@ body
   max-height: 69px;
 }
 
+.sizeFontHomeNav{
+  font-weight: bold;
+}
 .navbar img 
 {
   position: relative;
@@ -83,7 +86,7 @@ body
   color:#FFFFFF;
 }
 
-#introHome
+.introHome
 {
   height: 640px;
   background-image: url("../img/NY-sunset-view.jpg");
@@ -225,4 +228,11 @@ h1{
 }
 .bottom20{
   margin-bottom: 20px;
+}
+
+.container-fluid{
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-right: auto;
+  margin-left: auto;
 }
