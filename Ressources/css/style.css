@@ -8,6 +8,7 @@ body
   padding: 9px 9px;
   transition: all 0.5s;
   margin-bottom: 0px;
+  max-height: 69px;
 }
 
 .navbar img 
