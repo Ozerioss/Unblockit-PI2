@@ -155,10 +155,6 @@ footer
   background-color: #c2454d;
 }
 
-.wrapper{
-  min-height: 100%;
-  position: relative;
-}
 
 .left{
   float:left;
@@ -235,4 +231,9 @@ h1{
   padding-left: 90px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.tutorialsBorder{
+  border:2px solid #c2454d;
+  border-radius: 10px;
 }
