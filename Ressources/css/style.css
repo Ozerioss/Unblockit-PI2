@@ -95,6 +95,7 @@ body
   color: black; 
   font-family: 'Sanchezregular';
   font-size: 20px;
+  position: relative;
 
   /*display: table;*/
   /*width: 100%;*/
