@@ -1,3 +1,4 @@
+// Function pour animer le scroll down
 $(function(){
 
 $('nav a, .down-button a').bind('click', function ()
@@ -10,3 +11,16 @@ $('nav a, .down-button a').bind('click', function ()
 });
 
 });
+
+
+// Fonction pour fix le footer au bottom de la page
+ $(document).ready(function() {
+
+   var docHeight = $(window).height();
+   var footerHeight = $('#pute').height();
+   var footerTop = $('#pute').position().top + footerHeight;
+
+   if (footerTop < docHeight) {
+    $('#pute').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+   }
+  });

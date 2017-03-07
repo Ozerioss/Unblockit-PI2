@@ -145,14 +145,15 @@ body
 }
 
 /*footer */ 
-
 footer
 {
   display : block;
-  position: bottom fixed;
-  text-align:center;
-  color : white;
+  /*position: bottom fixed;*/
+  bottom: 0px;
+  text-align: center;
   background-color: #c2454d;
+  color: white;
+
 }
 
 
