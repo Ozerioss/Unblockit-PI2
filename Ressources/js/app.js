@@ -14,7 +14,7 @@ $('nav a, .down-button a').bind('click', function ()
 
 
 // Fonction pour fix le footer au bottom de la page
- $(document).ready(function() {
+ /*$(document).ready(function() {
 
    var docHeight = $(window).height();
    var footerHeight = $('#fixfooter').height();
@@ -23,4 +23,4 @@ $('nav a, .down-button a').bind('click', function ()
    if (footerTop < docHeight) {
     $('#fixfooter').css('margin-top', 10+ (docHeight - footerTop) + 'px');
    }
-  });
+  });*/
