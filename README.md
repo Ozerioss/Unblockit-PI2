@@ -21,3 +21,4 @@ To help everyone to understand it we want to create a web application to learn t
 #Authors of the project
 
 Karim Kidiss, Adriana Rosa, Auriane Rouault De Coligny, Killian Roy
+
