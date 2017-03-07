@@ -68,9 +68,9 @@ body
 .down-button
 {
   position: absolute;
-  bottom: 30px;
+  bottom: 10%;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .down-button i
@@ -157,7 +157,6 @@ footer
   color: white;
 
 }
-
 
 footer div div div a
 {
