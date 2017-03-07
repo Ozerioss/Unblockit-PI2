@@ -17,10 +17,10 @@ $('nav a, .down-button a').bind('click', function ()
  $(document).ready(function() {
 
    var docHeight = $(window).height();
-   var footerHeight = $('#pute').height();
-   var footerTop = $('#pute').position().top + footerHeight;
+   var footerHeight = $('#fixfooter').height();
+   var footerTop = $('#fixfooter').position().top + footerHeight;
 
    if (footerTop < docHeight) {
-    $('#pute').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+    $('#fixfooter').css('margin-top', 10+ (docHeight - footerTop) + 'px');
    }
   });
