@@ -68,15 +68,17 @@ body
 .down-button
 {
   position: absolute;
-  bottom: 30px;
+  bottom: 10%;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .down-button i
 {
   color: #fcf0e7;
 }
+
+
 
 .navbar-bottom {
   min-height: 300px;
@@ -154,6 +156,12 @@ footer
   background-color: #c2454d;
   color: white;
 
+}
+
+footer div div div a
+{
+  color : white;
+  padding: 0% 2%;
 }
 
 
