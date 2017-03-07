@@ -68,6 +68,7 @@ body
 .down-button
 {
   position: absolute;
+  float: bottom;
   bottom: 10%;
   width: 100%;
   /*text-align: center;*/
