@@ -2,8 +2,8 @@
 
 # Synopsis
 
-Unblock It is a student project about the blockchain. 
-It includes HTML/CSS, NodeJS...
+UnblockIt is a student project about the blockchain. 
+It includes HTML5/CSS3, Node.js...
 
 
 # Movitivation 
