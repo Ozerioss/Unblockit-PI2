@@ -237,6 +237,18 @@ h1{
 .tutorialsBorder{
   border:1px solid #c2454d;
   min-height: 250px;
+  background-color: #fff;
+  margin-top : 20px;
+  margin-bottom: 20px;
+}
+
+.backgroundTuto{
+  background-color: #ececec;
+}
+
+.backgroundTitle{
+  background-color: #c2454d;
+  color :#fff;
 }
 
 #tutoText{
