@@ -236,10 +236,17 @@ h1{
 
 .tutorialsBorder{
   border:1px solid #c2454d;
-  min-height: 250px;
+  min-height: 350px;
   background-color: #fff;
-  margin-top : 20px;
-  margin-bottom: 20px;
+  margin-top : 70px;
+  margin-bottom: 70px;
+  padding: 7%;
+}
+
+.introTuto{
+  height: 500px;
+  background-image: url("../img/16.jpg");
+  background-size:100% 100%;
 }
 
 .backgroundTuto{
@@ -249,6 +256,8 @@ h1{
 .backgroundTitle{
   background-color: #c2454d;
   color :#fff;
+  padding-top : 50px;
+  padding-bottom: 50px;
 }
 
 #tutoText{
@@ -277,12 +286,20 @@ h1{
 }
 
 .learnMoreTuto:hover {
-  background: #c2454d;;
+  background: #c2454d;
   border-color: #c2454d;
   color: #fff;
   padding: 5%;
 }
 
+.textBlockTuto{
+  min-height: 100px;
+}
+
+.titleDetailCourse{
+  color: #c2454d;
+  font-weight: bold;
+}
 
 
 /**** Footer ****/ 
