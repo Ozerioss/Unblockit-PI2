@@ -232,16 +232,44 @@ h1{
 
 /**** Tutorials ****/
 
+/*** https://www.ibm.com/blockchain/getting-started.html  ***/
+
 .tutorialsBorder{
-  border:2px solid #c2454d;
-  border-radius: 10px;
+  border:1px solid #c2454d;
+  min-height: 250px;
 }
 
 #tutoText{
-  margin: 2% 2%;
+  margin: 2% 2%;  
 }
 
+.startTuto{
+    background: #c2454d;
+    border-color: #c2454d;
+    color: #fff;
+    padding:5%;
+}
 
+.startTuto:hover {
+    background: #A2252D;
+    border-color: #A2252D;
+    color: #fff;
+    padding:5%;
+}
+
+.learnMoreTuto{
+  background: transparent;
+  border-color: #c2454d;
+  color: #c2454d;
+  padding: 5%;
+}
+
+.learnMoreTuto:hover {
+  background: #c2454d;;
+  border-color: #c2454d;
+  color: #fff;
+  padding: 5%;
+}
 
 
 
