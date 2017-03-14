@@ -248,6 +248,20 @@ h1{
   padding: 7%;
 }
 
+.tutorialsHeader{
+  color: #fff;
+  background-color: #c2454d;    
+  margin-bottom: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tutorialUpHeader{
+  background-color: #ececec;
+  padding-top:50px;
+  padding-bottom: 90px;
+}
+
 .introTuto{
   height: 500px;
   background-image: url("../img/16.jpg");
@@ -256,6 +270,7 @@ h1{
 
 .backgroundTuto{
   background-color: #ececec;
+  color: black;
 }
 
 .backgroundTitle{
