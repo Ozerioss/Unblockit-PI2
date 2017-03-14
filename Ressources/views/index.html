@@ -12,80 +12,113 @@
   <body>
     <header>
      <div class="navbar navbar-default navbar-fixed-top cbp-af-header">
-     <div class="container-fluid"> 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <a href="index.html"> <img src="../img/test_final_logo.png"  alt="Unblockit !"/> </a>
-        <ul class="nav navbar-nav navbar-right sizeFontHomeNav">
-          <li>  <a class="linkHover" href="index.html"> Home </a></li>
-          <li>  <a class="linkHover" href="tutorials.html"> Tutorials </a></li>
-          <li>  <a class="linkHover" href="about.html"> About </a></li>
-          <li>  <a class="linkHover" href="contact.html"> Contact </a></li>
-        </ul>     
-      </div> <!-- /.navbar-collapse -->
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>  
-    </div>
-  </div> <!-- /.container-fluid -->
-</header>
+       <div class="container-fluid"> 
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <a href="index.html"> <img src="../img/test_final_logo.png"  alt="Unblockit !"/> </a>
+          <ul class="nav navbar-nav navbar-right sizeFontHomeNav">
+            <li>  <a class="linkHover" href="index.html"> Home </a></li>
+            <li>  <a class="linkHover" href="tutorials.html"> Tutorials </a></li>
+            <li>  <a class="linkHover" href="about.html"> About </a></li>
+            <li>  <a class="linkHover" href="contact.html"> Contact </a></li>
+          </ul>     
+        </div> <!-- /.navbar-collapse -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>  
+      </div>
+    </div> <!-- /.container-fluid -->
+  </header>
 
-<div id="content">
-  <div class="introHome">
-    <div class="container-fluid">
-      <div class="container col-md-8 col-md-offset-2">
-        <h1 class="red" id="titre"> Welcome to Unblock It</h1>
+  <div id="content">
+    <div class="introHome">
+      <div class="container-fluid">
+        <div class="container col-md-8 col-md-offset-2">
+          <h1 class="red" id="titre"> Welcome to Unblock It</h1>
 
-        <h1>The Blockchain Academy</h1>
-        <br/>
-        <p>You will discover what is exactly the blockchain, how does it work, the relevant features.</p>
-        <p>Learning and programming the blockchain on our website like a game.</p>
-        <br><br>
-        <button class="btn" id="joinUs" data-toggle="modal" data-target="#joinUsMod">Join Us</button>
-
-
+          <h1>The Blockchain Academy</h1>
+          <br/>
+          <p>You will discover what is exactly the blockchain, how does it work, the relevant features.</p>
+          <p>Learning and programming the blockchain on our website like a game.</p>
+          <br><br>
+          <button class="btn" id="joinUs" data-toggle="modal" data-target="#joinUsMod">Join Us</button>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="joinUsMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Join Us !</h4>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Suscribe</button>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="joinUsMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content  black-text">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Join Us !</h4>
+                </div>
+                <div class="modal-body">
+                  <form method="" action="">
+                    <h1>Register</h1> </br></br>
+                    <p class="text-left">Enter your pseudo :</p>
+                    <input type="pseudo" class="form-control input-modal" name="pseudo" placeholder="Pseudo" required><br/>
+                    <p class="text-left">Enter a valid mail :</p>
+                    <input type="email" class="form-control input-modal" name="email" placeholder="Email" required><br/>
+                    <p class="text-left">Enter your password :</p>
+                    <input type="password" class="form-control input-modal" name="password" placeholder="Password" required><br/>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Suscribe</button>
+                </div>
               </div>
             </div>
           </div>
+
+          <button class="btn" id="logIn" data-toggle="modal" data-target="#logInMod">Log In</button>
         </div>
-
-        <button class="btn" id="logIn" data-toggle="modal" data-target="#logInMod">Log In</button>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="logInMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content  black-text">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Log In !</h4>
+            </div>
+            <div class="modal-body">
+              <form method="" action="">
+                <h1>Sign In</h1> </br></br>
+                <p class="text-left">Enter your pseudo :</p>
+                <input type="pseudo" class="form-control input-modal" name="pseudo" placeholder="Pseudo" required><br/>
+                <p class="text-left">Enter your password :</p>
+                <input type="password" class="form-control input-modal" name="password" placeholder="Password" required><br/>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Go ! </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="down-button">
+        <a class="bouton" href="#aboutUs">
+          <i class="fa fa-arrow-circle-down fa-4x" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="container bottom20" display="true">
+      </div>
+
     </div>
+    <div class="whitespace">
 
-    <div class="down-button">
-      <a class="bouton" href="#aboutUs">
-        <i class="fa fa-arrow-circle-down fa-4x" aria-hidden="true"></i>
-      </a>
     </div>
-
-    <div class="container bottom20" display="true">
-    </div>
-
-  </div>
-  <div class="whitespace">
-
-  </div>
-  <div class="container-fluid">
-    <div class="row" id="presentation">
+    <div class="container-fluid">
+      <div class="row" id="presentation">
     <!-- Idées pour fix utiliser col-md-4 et une classe css pour mettre des margins plutot que l'offset
     aligner le texte au centre et uniformiser la taille des images ( faudrait aussi que la taille des 3 textes soit uniforme) -->
     <div class="col-md-4 ">
@@ -123,11 +156,12 @@
   <div class="container-fluid">
     <div class="row" >
       <div class="col-md-5">
+      <br>
         <h1>About Us</h1>
         <p>UnblockIt poroject about learning the blockchain intuitively and surely with lectures, exercices and lots of pratice we believe that anyone can achieve his goal of learning the technology.</p>
       </div>
     </div>
-  </div>
+  </div><br><br>
 </div>
 </div>
 
@@ -140,8 +174,8 @@
         <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a> 
         <a href="#"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
       </div>
-   </div>
- </div>
+    </div>
+  </div>
 </footer>
 
 <!-- Scripts déplacés en bas parce que l'animation de la navbar ne marche pas sinon -->
