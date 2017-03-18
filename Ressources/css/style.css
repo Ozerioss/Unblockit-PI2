@@ -39,6 +39,14 @@ a,href{
  color: #c2454d;
 }
 
+.redBackground{
+  background-color: #c2454d;
+}
+
+.white-text{
+  color: white;
+}
+
 #titre
 {
   font-size: 50px;
@@ -320,6 +328,13 @@ h1{
   color: #c2454d;
   font-weight: bold;
 }
+
+/**** Profile ****/
+.introProfile{
+  background-color: rgb(202, 170, 178);
+}
+
+
 
 
 /**** Footer ****/ 
