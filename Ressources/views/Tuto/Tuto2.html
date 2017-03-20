@@ -37,14 +37,16 @@
   </div> <!-- /.container-fluid -->
 </header>
 <div id="content">
+  <ol class="breadcrumb container-fluid">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../tutorials.html">Cours</a></li>
+        <li class="active">Cours 2</li>
+  </ol>
   <div class="tutorialUpHeader container-fluid">
-    <ol class="breadcrumb">
-      <li><a href="../index.html">Accueil</a></li>
-      <li><a href="../tutorials.html">Cours</a></li>
-      <li class="active">Cours 1</li>
-    </ol>
-    <h1 class="text-center"> Course 1 : La blockchain en détails ça donne quoi</h1>
-    <div class="row text-center paddingTop">
+    <h1 class="text-center"> Course 2 : La blockchain en détails ça donne quoi</h1>
+  </div>
+  <div > 
+    <div class="row text-center tutorialsSecondTitle">
       <div class="col-md-4">
         <a href="#part1">Partie 1</a>
       </div>
@@ -57,17 +59,20 @@
     </div>
   </div>
   <div class="container-fluid tutorialsHeader text-center">
-    <h2 id="#part1"> La cryptographie asymétrique garante de la propriété des informations</h2>
+    <h2 id="#part1"> Partie 1 <br>La cryptographie asymétrique garante de la propriété des informations</h2>
   </div>
-  <div class="container-fluid">
+  <div class="container-text text-justify">
+    <h3 class="secondTitle">
+      La paire clé privée/publique et la signature digitale
+    </h3>
     <p>
-      La blockchain utilise un principe courant en cryptographie, la paire clé privée/clé publique.
-      Une clé publique est visible par tous, un peu comme une adresse. Cette clé publique est générée à partir d’une clé privée grâce à des fonctions mathématiques complexes qui sont à sens unique. Une clé privée permet de calculer une clé publique, l’inverse est impossible. Soit P la clé publique et S la clé privée. On génère P à partir de S mais il est impossible de retrouver S à partir de P. Celui qui possède S possède donc le contenu de P..
+      La blockchain utilise un principe courant en cryptographie, la paire clé privée/clé publique.<br>
+      Une clé publique est visible par tous, un peu comme une adresse. Cette clé publique est générée à partir d’une clé privée grâce à des fonctions mathématiques complexes qui sont à sens unique. Une clé privée permet de calculer une clé publique, l’inverse est impossible.<br> Soit P la clé publique et S la clé privée. On génère P à partir de S mais il est impossible de retrouver S à partir de P. Celui qui possède S possède donc le contenu de P..
       Seulement, c’est plus compliqué que cela, le réseau est décentralisé donc donner sa clé privée ne suffit pas pour justifier l’utilisation des fonds de l’adresse associée. En effet, un noeud qui recevra votre clé privée pourrait l’utiliser pour accéder au fond de la clé publique associée. Il faut donc prouver au réseau que l’on possède la clé privée sans la donner aux réseaux. C’est là qu’intervient la signature digitale.
-      Au lieu d’envoyer la clé privée sur le réseau, on utilise une signature digitale générée à partir de la clé privée de l’émetteur au moment où il initie la transaction. Cela prouve que l’émetteur possède bien la clé privée.
+      Au lieu d’envoyer la clé privée sur le réseau, on utilise une signature digitale générée à partir de la clé privée de l’émetteur au moment où il initie la transaction. Cela prouve que l’émetteur possède bien la clé privée.<br>
       Vous allez me dire, ne venons nous pas de déplacer le problème? Et bien non, chaque signature digitale est utilisable que pour la transaction à partir de laquelle elle a été généré. C’est à dire qu’on ne peut prendre une signature digitale d’une transaction pour l’appliquer à une autre.
-      Il est également intéressant de savoir que la paire clé privée/publique est générée hors du réseaux. C’est à dire qu’il n’y a aucune vérification pour savoir si elle est déjà utilisé par un autre utilisateur comme c’est le cas lorsque vous vous inscrivez sur un jeu en ligne avec un pseudo. N’est-ce donc pas dangereux alors ? N’y a t’il pas un risque d’avoir deux fois la même paire ?
-      Tout d’abord, comment est généré une paire?
+      Il est également intéressant de savoir que la paire clé privée/publique est générée hors du réseaux. C’est à dire qu’il n’y a aucune vérification pour savoir si elle est déjà utilisé par un autre utilisateur comme c’est le cas lorsque vous vous inscrivez sur un jeu en ligne avec un pseudo. N’est-ce donc pas dangereux alors ? N’y a t’il pas un risque d’avoir deux fois la même paire ? <br>
+      Tout d’abord, comment est généré une paire?<br>
       je vous rappelle que la clé publique, l’adresse, est générée à partir d’une clé privée. Vous voyez où je veux en venir ? ;)
       Pour vérifier qu’une clé privée n’est pas utilisée, le réseau devrait, à partir d’une clé publique, générée la clé privée… Ce qui annihile la sécurité.
       Bon et alors, est ce que je peux générer la même paire qu’un autre utilisateur ?!
@@ -78,7 +83,11 @@
       Vous comprenez donc que c’est très peu probable d’accueillir un squatter chez soi…
       Bon est un super ordinateur serait il capable de trouver une clé privée à partir de la clé publique et vider les fonds ?
       Là aussi en théorie c’est possible. Imaginer un ordi qui génère 2p50 clé par seconde (belle bête). il lui faudrait, 2p110 secondes pour trouver la bonne clé. Soit environ 2p 90 années, sachant que l’univers a 2p34 années… Il aura grillé d’ici là… 
-
+    </p>
+    <h3 class="secondTitle">
+      La multisignature
+    </h3>
+    <p>
       Vous l’aurez bien compris, la génération de cette paire est une chose très importante pour garantir la sécurité des données qui transitent sur le réseau. Si vous égaré votre clé privé, vous perdez toutes les informations qui sont sur la clé publique et comme nous l’avons vu, impossible de la retrouver…
       Bon depuis le début je fais l’amalgame entre clé publique et adresse par soucis de clarté mais sachez qu’il s’agit de deux choses différentes. Une adresse bitcoin est un hash de la clé publique. Vous pouvez donc posséder plusieurs adresses toutes reliées à la même clé publique.
       Heureusement il existe des mécanismes pour ne pas perdre toutes ces données.
@@ -86,7 +95,11 @@
       Dans ce cas, une adresse est contrôlée par plusieurs “personnes”. Imaginez que vous siégez au conseil d’administration de Google, comprenant 10 personnes, et vous voulez débloquer des fonds pour de la recherche sur la blockchain (^^). Il faudrait donc que ces 10 personnes (ou moins) autorisent la transaction. Pour ce faire, les 10 individus doivent signer avec leur clé privée pour autoriser la transaction. C’est ce qu’on appelle M de N transactions.
       M signature sont nécessaires sur les N disponible.
       En d’autres termes, on génère une clé publique, l’adresse, à partir de N clé privée en indiquant le nombre M de signature nécessaire pour une transaction.
-
+    </p>
+    <h3 class="secondTitle">
+      La validation d'une transaction
+    </h3>
+    <p>
       Intéressons nous à la validation d’une transaction. Une transaction est validée grâce à l’algorithme “Elliptic Curve Digital Signature Algorithm” (ECDSA). 
       Lorsqu’une transaction est initiée, elle est envoyée à la clé publique.
     </p>
@@ -94,7 +107,7 @@
   <div class="container-fluid tutorialsHeader text-center">
     <h2 id="part2"> Un réseau P2P, les noeuds, Proof of work (PoW), les mineurs, les blocs</h2>
   </div>
-  <div class="container-fluid">
+  <div class="container-text text-justify">
     <p>
       Sur un réseau P2P, comme les autres systèmes distribués, il faut résoudre un des problèmes les plus difficile de l’informatique: la résolution de conflits, aussi appelée réconciliation. Les bases de données relationnelles, elles, garantissent l’intégrité référentielle, mais ça n’existe pas dans les systèmes distribués. Si deux faits incompatibles arrivent au même moment dans un même noeud, le système doit prévoir des règles pour déterminer lequel est valide. 
       L’amélioration des algorithmes de consensus est un sujet où beaucoup de recherches sont menés.
