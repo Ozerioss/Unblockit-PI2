@@ -179,7 +179,13 @@ h1{
   margin: 0 auto;
 }
 
+.textHeight{
+  min-height: 78px;
+}
 
+.titleHeight{
+  min-height: 45px;
+}
 
 /**** About Us ****/
 .person-cell{
