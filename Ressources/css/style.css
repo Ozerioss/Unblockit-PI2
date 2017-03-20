@@ -258,7 +258,7 @@ h1{
 
 .tutorialsHeader{
   color: #fff;
-  background-color: #c2454d;    
+  background-color: #c2454d; 
   margin-bottom: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -266,8 +266,8 @@ h1{
 
 .tutorialUpHeader{
   background-color: #ececec;
-  padding-top:50px;
-  padding-bottom: 90px;
+  padding-top:10px;
+  padding-bottom: 60px;
 }
 
 .introTuto{
@@ -334,7 +334,9 @@ h1{
   background-color: rgb(202, 170, 178);
 }
 
-
+.paddingTop {
+  padding-top: 20px;
+}
 
 
 /**** Footer ****/ 
