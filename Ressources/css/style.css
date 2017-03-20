@@ -356,6 +356,9 @@ h1{
   border-radius: 0px;
 }
 
+.detailsCourseHeight{
+  min-height: 350px;
+}
 /**** Profile ****/
 .introProfile{
   background-color: rgb(202, 170, 178);
