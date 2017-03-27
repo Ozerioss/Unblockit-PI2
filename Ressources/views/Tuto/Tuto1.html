@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Unblock it !</title>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="../../bootstrap/js/bootstrap.min.js"></script>
+  <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"  href="../../css/style.css" />
+  <script src="https://use.fontawesome.com/d1e8efe0b9.js"></script>
+  <script src="../../js/app.js"> </script>
+
+</head>
+
+<body>
+  <header>
+   <div class="navbar navbar-default navbar-fixed-top cbp-af-header">
+     <div class="container-fluid"> 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <a href="../index.html"> <img src="../../img/test_final_logo.png"  alt="Unblockit !"/> </a>
+        <ul class="nav navbar-nav navbar-right sizeFontHomeNav">
+          <li>  <a class="linkHover" href="../index.html"> Home </a></li>
+          <li>  <a class="linkHover" href="../tutorials.html"> Tutorials </a></li>
+          <li>  <a class="linkHover" href="../about.html"> About </a></li>
+          <li>  <a class="linkHover" href="../contact.html"> Contact </a></li>
+        </ul>     
+      </div> <!-- /.navbar-collapse -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>  
+    </div>
+  </div> <!-- /.container-fluid -->
+</header>
+<div id="content">
+  <ol class="breadcrumb container-fluid">
+    <li><a href="../index.html">Accueil</a></li>
+    <li><a href="../tutorials.html">Cours</a></li>
+    <li class="active">Cours 1</li>
+  </ol>
+  <div class="tutorialUpHeader container-fluid">
+    <h1 class="text-center"> Course 1 : the blockchain, getting started !</h1>
+  </div>
+  <div > 
+    <div class="row text-center tutorialsSecondTitle">
+      <div class="col-md-3 ">
+        <a href="#part1">Partie 1</a>
+      </div>
+      <div class="col-md-3">
+        <a href="#part2">Partie 2</a>
+      </div>
+      <div class="col-md-3">
+        <a href="#part3">Partie 3</a>
+      </div>
+      <div class="col-md-3">
+        <a href="#part4">Partie 4</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid tutorialsHeader text-center">
+    <h2 id="#part1"> Partie 1 <br>Qu’est-ce que la technologie blockchain ?</h2>
+  </div>
+  <div class="container-text text-justify">
+    <p>La blockchain est une technologie qui promet de révolutionner nos institutions. Et vous vous demandez encore ce que c’est ?!
+      <br>
+      <br>
+      La blockchain est une nouvelle technologie qui permet de faire des transactions sécurisées et en toute transparence. Imaginez un énorme registre où vous marquez les échanges de données à l’encre indélébile. Vous pouvez voir toutes les transactions précédentes ce qui vous assure de la possibilité de donner un bien et la vérification des futur transferts. Bien sûr votre nom n’est pas écrit en clair, grâce à un système de signature électronique, mais libre à vous de consulter ce registre. On la considère comme ultra sécurisée car il est presque impossible de faire des modifications. Une fois qu’un bloc est inscrit dans la blockchain on ne peut pas le modifier. Effectivement un bloc dépend du précédent et du suivant. Ce qui voudrait dire qu’il faudrait modifier toute la chaîne, ce qui est impossible même avec un ordinateur d’une grande puissance de calcul. <br>
+      La blockchain marche sur un réseau “peer-to-peer”, chacun a sa copie du fameux registre et lorsque qu’un bloc est validé, tous les registres sont mis à jour. Ces blocs sont validés par des “mineurs”, ce sont des ordinateurs qui travaillent inlassablement afin de résoudre un problème mathématique qui permet ensuite de valider un bloc. En moyenne, un bloc est miné toutes les 10 minutes.<br>
+      <br>
+      Cette technologie a été mise en place pour décentraliser l'échange d’argent, le bitcoin. Mais ces applications se retrouvent dans d’autres domaines bien différents.<br>
+    </p>
+  </div>
+  
+  <div class="container-fluid tutorialsHeader text-center">
+    <h2 id="part2"> Partie 2 <br>L’origine : le Bitcoin</h2>
+  </div>
+  <div class="container-text text-justify">
+    <p>
+      Pour parler de l’origine de la blockchain, il est nécessaire de parler du bitcoin. En effet, c’est avec ce dernier que la technologie blockchain est née.
+      <br> 
+      Suite à la crise financière de 2007, un sentiment de réticence envers les banques naît. On cherche alors un moyen de pouvoir faire des transactions d’argent en toute confiance. Ainsi en août 2008 un certain Satoshi Nakamoto publie un document concernant une nouvelle monnaie : le bitcoin. Cette cryptocurrency est une monnaie électronique sur un réseau de paiement novateur fonctionnant de pair à pair, sans autorité centrale et dans le monde entier.  Fini les banques, on peut alors s’échanger de l’argent sans passer par les banques et autres. Le fait que la blockchain vérifie la possibilité de chaque transaction instaure donc un sentiment de confiance envers chacun des utilisateurs.<br>
+      Rappelons que l’objectif premier du Bitcoin est d’avoir un système décentralisé pour que ni le gouvernement ni les sociétés ne prennent la main dessus.
+      <br>
+      <br>
+      **exemple de transaction**<br>
+      Pour vous aider à bien comprendre la démarche, prenons un petit exemple. <br>
+      Billy souhaite donner 5 bitcoins à son amie Sandy pour lui acheter sa voiture. Il va donc inscrire sa transaction sur le réseau. Pour cela, Billy a l’aide de sa clé privée de chiffrement inscrit “Billy donne 5 bitcoins à Sandy”. Le message sera inscrit en une chaîne de caractère crypté du style “5ee3a7ad229daa998e2664c698a2ee84”, on appelle cela le hashage(fait de faire passer une chaîne de caractères dans une fonction pour obtenir une autre chaîne de caractères unique) . Ce qu’il faut savoir est que seul Billy détient la clé pour crypter de cette manière le message, ce qui garantit son authenticité. Les autres membres du réseau, eux détiennent la clé publique de déchiffrement pour évidemment déchiffrer le message. Pour reprendre, Billy a une clé privée permettant de chiffrer un message et les autres détiennent une clé publique permettant de le déchiffrer. Grâce à ses clés on sait que c’est Billy, et lui seul, qui a fait la transaction. Trop fort Billy ! <br>
+      Le message de la transaction se retrouve dans la liste d’attente des noeuds(chaque ordinateur du réseau est qualifié de noeuds) les plus proches de Billy en attendant que celle-ci soit validé.<br>
+      Pendant ce temps les mineurs essayent de résoudre un problème mathématique complexe pour dire que la liste de transaction en attente qu’il possède est la bonne, “mettez-la dans le réseau !”. Et dans cette course d’ordinateurs, le premier arrivé se voit recevoir des bitcoins. Tout travail mérite son dû ! C’est le seul moment où le bitcoin est créé. Aujourd’hui il est bien difficile de rejoindre la course au minage car le nombre de mineur à considérablement augmenter et cela nécessiterait énormément de puissance de calculs(soit beaucoup, beaucoup de PC reliés. Alors ne cherchez pas plus loin). C’est aussi à ce moment qu’on vérifie que Billy possède bien les 5 bitcoins. Il les a reçu de quelqu’un précédemment donc la transaction “Georgia donne 5 bitcoins à Billy” est inscrite quelque part dans la blockchain. Il suffit de remonter dans les blocs précédents pour voir si cette transaction existe et confirmer ou non le fait que Billy peut donner 5 bitcoins à Sandy.<br>
+      Et sinon Billy ? Sa transaction est enfin validée et le bloc contenant d’autres transactions en attentes se retrouve sur le réseau. Les autres noeuds se mettent à jours par rapport à ce nouveau bloc. <br>
+      Après avoir attendu 1h pour être certaine de la transaction, Sandy récolte les 5 bitcoins et cède sa voiture à Billy. 
+    </p>
+  </div>
+
+  <div class="container-fluid tutorialsHeader text-center">
+    <h2 id="part3"> Partie 3 <br> Son utilisation actuelle</h2>
+  </div>
+  <div class="container-text text-justify">
+    <p>
+      Aujourd’hui la blockchain est essentiellement utilisée pour le transfert de bitcoin. <br>
+      Cependant de nombreux acteurs expérimentent cette technologie. Les banques s’y sont intéressées dans le but de l’utiliser dans la finance de marché (consortium vu précédemment). <br>
+      On la retrouve aussi chez les assurances mais cette fois-ci pour les smart contracts. Dans ce cas, ce n’est plus le réseau Bitcoin mais Ethereum qui intervient. Un smart contrat est un transfert de valeurs automatisées en fonction des conditions préalablement convenues entre les parties. Ce transfert intervient dès que l’événement déclencheur à lieu (ex: remboursement de dégâts des eaux, remboursement de frais dentaires…).<br>
+      La technologie est appliquée de nos jours pour certifier les documents, contrats et diplômes. 
+      Certains pensent même à l’utiliser pour voter électroniquement.<br>
+      De nombreuses start up l’utilisent dans divers domaines (santé, covoiturages…) alors comment vous dire que ce n’est que le début. Elle n’attend que votre imagination !
+    </p>
+  </div>
+
+  <div class="container-fluid tutorialsHeader text-center">
+    <h2 id="part4"> Partie 4 <br> Et dans l'avenir ?</h2>
+  </div>
+  <div class="container-text text-justify">
+    <p>
+      
+    </p>
+  </div>
+</div>
+</div> 
+<footer id="fixfooter"> 
+  <div class="container-fluid">
+    <br>
+    <div class="row">
+      <div class="text-left col-md-6"> &copy; 2016 UnBlockIt - All Rights Reserved </div>
+      <div class="text-right col-md-6">       
+       <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a> 
+       <a href="#"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
+     </div>
+   </div>
+ </div>
+</footer>
+</body>
+</html>
