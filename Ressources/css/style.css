@@ -160,13 +160,16 @@ h1{
   padding-top: 6%;
 }
 
-.down-button
+/*.down-button
 {
   position: absolute;
   float: bottom;
   bottom: auto;
   width: 100%;
-  /*text-align: center;*/
+}*/
+#arrow {
+  padding-top: 3%;
+  text-align: center; 
 }
 
 .down-button i
